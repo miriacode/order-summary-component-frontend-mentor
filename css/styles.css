@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-color: hsl(225, 100%, 94%);
+  width: 100%;
+  height: 100%;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  color: hsl(224, 23%, 55%);
+}
+
+.box {
+  height: 390px;
+  width: 325px;
+  margin-top: 9vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.box__picture {
+  background-image: url(/assets/images/illustration-hero.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 170px;
+  width: 325px;
+  border-radius: 20px 20px 0 0;
+}
+
+.box__text {
+  background-color: white;
+  height: 390px;
+  width: 325px;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0px 45px 30px -10px hsl(225, 100%, 90%);
+}
+
+.box__text--title {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.box__text--paragraph {
+  height: 110px;
+  text-align: center;
+  padding: 19px 25px 0 25px;
+  line-height: 1.65em;
+}
+
+.button-plan {
+  position: relative;
+  background-color: hsl(225, 100%, 98%);
+  width: 278px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.button-plan img {
+  padding: 16px 15px;
+}
+
+.button-plan__title {
+  position: absolute;
+  top: 20px;
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.button-plan__price {
+  position: absolute;
+  top: 45px;
+}
+
+.button-plan__link {
+  position: absolute;
+  top: 32px;
+  left: 205px;
+  font-size: 0.85em;
+  font-weight: 700;
+}
+
+.button__payment {
+  display: block;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(0, 0%, 94%);
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.96em;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 13px;
+  width: 286.5px;
+  height: 50px;
+  box-shadow: 0 15px 25px -18px hsl(245, 75%, 52%);
+}
+
+.button__cancel {
+  display: block;
+  text-align: center;
+  margin-top: 22.5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 83px;
+  background-color: transparent;
+  font-weight: 700;
+  font-size: 0.96em;
+  text-decoration: none;
+  color: hsl(224, 23%, 65%);
+}
+
+.button__payment:hover {
+  background-color: hsl(245, 83%, 68%);
+}
+
+.button-plan__link:hover {
+  color: hsl(243, 47%, 70%);
+}
+
+.button__cancel:hover {
+  color: hsl(229, 32%, 21%);
+}
+
+.background-design {
+  background-image: url(/assets/images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 375px;
+  position: absolute;
+  top: -160px;
+  z-index: -1;
+}
+
+@media screen and (min-width: 1024px) {
+  .background-design {
+    background-image: url(/assets/images/pattern-background-desktop.svg);
+    top: -155px;
+    width: 100%;
+    height: 480px;
+  }
+}
