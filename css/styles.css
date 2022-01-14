@@ -23,7 +23,7 @@ background-color: hsl(225, 100%, 94%);
 }
 
 .box__picture {
-  background-image: url(../assets/images/illustration-hero.svg);
+  background-image: url(./../assets/images/illustration-hero.svg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 170px;
@@ -133,7 +133,7 @@ background-color: hsl(225, 100%, 94%);
 }
 
 .background-design {
-  background-image: url(../assets/images/pattern-background-mobile.svg);
+  background-image: url(./../assets/images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -145,7 +145,7 @@ background-color: hsl(225, 100%, 94%);
 
 @media screen and (min-width: 1024px) {
   .background-design {
-    background-image: url(../assets/images/pattern-background-desktop.svg);
+    background-image: url(./../assets/images/pattern-background-desktop.svg);
     top: -155px;
     width: 100%;
     height: 480px;
